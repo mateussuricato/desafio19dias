@@ -533,6 +533,34 @@ main > p {
   width: 100%;
 }
 
+.headline-red {
+  background-color: #E11F02;
+  color: white;
+  font-size: 1.5rem;
+  padding: 2rem 1rem;
+  font-weight: 500;
+  text-align: center;
+
+}
+
+.garantia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.garantia h1 {
+  color: #FF5700;
+}
+
+.garantia p {
+  color: black;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 0 1rem;
+}
+
 @media (min-width: 768px) {
   .vsl {
     padding-bottom: 0px;
