@@ -460,6 +460,78 @@ main > p {
   font-size: 1.7rem;
 }
 
+.bump {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bump-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 3rem 0;
+  background-color: #ededed;
+  border-radius: 0 0 15px 15px ;
+  margin: 3rem 1rem;
+  padding-bottom: 1rem;
+}
+
+.bump-container h1 {
+  background-color: #ff5700;
+  border-radius: 15px 15px 0 0;
+  text-align: center;
+  padding: 1rem;
+}
+
+.subtitle-bump {
+  color: black;
+  font-weight: 400;
+}
+
+.oferta {
+  color: #ff5700;
+}
+
+.price {
+  color: #ff5700;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.slice-price {
+  color: #ff5700;
+  font-size: 1.3rem;
+  font-weight: 500;
+  border: 3px solid #ff5700;
+  border-radius: 25px;
+  padding: 0 1rem;
+}
+
+.bump-button {
+  color: white;
+  border-radius: 25px;
+  font-weight: 500;
+}
+
+.bump-pagamento {
+  color: black;
+  margin: 1rem 0;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.bump-image {
+  width: 320px;
+}
+
+.bump-image img {
+  width: 100%;
+}
+
 @media (min-width: 768px) {
   .vsl {
     padding-bottom: 0px;
