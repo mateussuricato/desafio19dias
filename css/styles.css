@@ -70,7 +70,7 @@ p {
 }
 
 a {
-  background-color: green;
+  background-color: rgb(0, 167, 0);
   text-decoration: none;
   padding: 1rem 0.8rem;
   border-radius: 1rem;
@@ -83,6 +83,7 @@ a:hover {
 }
 
 .top-button {
+  font-weight: 500;
   font-size: 1.4rem;
   line-height: 1.5rem;
 }
@@ -187,7 +188,7 @@ main > p {
   text-align: center;
   font-size: 1.5rem;
   font-weight: 600;
-  max-width: 768px;
+  max-width: 850px;
 }
 
 .img {
@@ -241,6 +242,7 @@ main > p {
 
 .slider > img {
     margin-right: 10px;
+    width: 80%;
 }
 
 @media (min-width: 768px) {
