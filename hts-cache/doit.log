@@ -1,8 +1,0 @@
--qwC2%P%s%u%I0H0%kf2A25000%f#f -F "" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://desafio19dias.com/ -O1 "C:\Meus Sites\s" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +https://desafio19dias.com/
-File generated automatically on Sun, 22 Jan 2023 21:32:02, do NOT edit
-
-To update a mirror, just launch httrack without any parameters
-The existing cache will be used (and modified)
-To have other options, retype all parameters and launch HTTrack
-To continue an interrupted mirror, just launch httrack without any parameters
-
