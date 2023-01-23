@@ -475,7 +475,7 @@ main > p {
   max-width: 500px;
   margin: 3rem 0;
   background-color: #ededed;
-  border-radius: 0 0 15px 15px ;
+  border-radius: 15px;
   margin: 3rem 1rem;
   padding-bottom: 1rem;
 }
