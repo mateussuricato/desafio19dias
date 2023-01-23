@@ -70,7 +70,7 @@ p {
 }
 
 a {
-  background-color: rgb(0, 167, 0);
+  background-color: #11ca48;
   text-decoration: none;
   padding: 1rem 0.8rem;
   border-radius: 1rem;
@@ -354,6 +354,110 @@ main > p {
 
 .bonus-part-2 img {
   width: 100%;
+}
+
+.maryana {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 91%);
+  background-color: #ff5700;
+  padding: 0 1rem 5rem 1rem;
+}
+
+.maryana p {
+  text-align: center;
+}
+
+.porque {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.porque img {
+  margin-top: 4rem;
+  width: 100%;
+  max-width: 768px;
+}
+
+.porque-title {
+  color: #ff5700;
+  text-align: center;
+  padding: 0 1rem;
+  margin-top: -3rem;
+}
+
+.porque-items {
+  margin-top: 1.5rem;
+  max-width: 768px;
+}
+
+.porque-items h2 {
+  padding: 0 1rem;
+  font-weight: 400;
+  color: #ff5700;
+  text-align: left;
+}
+
+.porque-items h3 {
+  font-weight: 300;
+  color: black;
+  text-align: left;
+  font-size: 1rem;
+  padding: 0 1rem;
+}
+
+.list {
+  width: 300px;
+}
+
+.list img {
+  width: 100%;
+}
+
+.preco {
+  clip-path: polygon(0 15%, 100% 1%, 100% 100%, 0% 100%);
+  background-color: #ff5700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.preco-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 768px;
+}
+
+.preco h1 {
+  align-self: center;
+}
+
+.title-preco-items {
+  font-size: 1.2rem;
+}
+
+.preco-items-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.check {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+.money {
+  text-decoration: line-through;
+  font-weight: 700;
+  font-size: 1.7rem;
 }
 
 @media (min-width: 768px) {
