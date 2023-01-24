@@ -249,10 +249,6 @@ main > p {
   max-width: 1000px;
 }
 
-.slider::-webkit-scrollbar {
-  width: 0;
-}
-
 .slider > img {
   margin-right: 10px;
   width: 80%;
@@ -720,7 +716,8 @@ footer {
 }
 
 .footer-container {
-  max-width: 100%;
+  margin: auto;
+  max-width: 768px;
   text-align: center;
   padding: 3rem 1rem;
   font-size: 10pt;
@@ -739,6 +736,12 @@ footer {
   .vsl > iframe {
     position: relative;
     height: 375px;
+  }
+}
+
+@media (max-width: 768px) {
+  .slider::-webkit-scrollbar {
+    width: 0;
   }
 }
 
