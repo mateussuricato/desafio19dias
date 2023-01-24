@@ -534,13 +534,12 @@ main > p {
 }
 
 .headline-red {
-  background-color: #E11F02;
+  background-color: #e11f02;
   color: white;
   font-size: 1.5rem;
   padding: 2rem 1rem;
   font-weight: 500;
   text-align: center;
-
 }
 
 .garantia {
@@ -550,8 +549,14 @@ main > p {
   flex-direction: column;
 }
 
+.garantia img {
+  width: 80%;
+  max-width: 300px;
+}
+
 .garantia h1 {
-  color: #FF5700;
+  color: #ff5700;
+  text-align: center;
 }
 
 .garantia p {
@@ -559,6 +564,147 @@ main > p {
   font-size: 0.9rem;
   text-align: center;
   padding: 0 1rem;
+}
+
+.interacao-content {
+  background-color: #ff5700;
+  clip-path: polygon(0 0, 100% 4%, 100% 100%, 0% 100%);
+  padding: 5rem 2rem 0 2rem;
+}
+
+.title-integracao-footer {
+  text-align: center;
+  font-weight: 500;
+}
+
+.footer-integracao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff5700;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 1rem;
+  margin-top: -1rem;
+}
+
+.interacao {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.part1 {
+  width: 500px;
+}
+.part2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.part2 img {
+  width: 80%;
+}
+
+.title-interacao {
+  font-weight: 600;
+  font-size: 1.7rem;
+}
+
+.interacao-title {
+  font-size: 2rem;
+}
+
+.description-interacao {
+  color: white;
+}
+
+.interacao-container {
+  margin-top: 1rem;
+  display: flex;
+}
+
+.star {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.teste {
+  text-align: center;
+  background-color: #11ca48;
+  text-decoration: none;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  transition: 0.3s;
+}
+
+.perguntas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.perguntas-title {
+  color: #ff5700;
+}
+
+.faq-container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.faq {
+  padding: 1rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+details {
+  border: 1px solid #b0b0b050;
+  width: 100%;
+  margin-top: 0.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+summary {
+  font-weight: 500;
+  color: #5e5d5d;
+  padding: 0.7rem;
+}
+
+summary::marker {
+  color: #ff5700;
+}
+
+.reposta {
+  text-align: left;
+  color: #5e5d5d;
+  padding: 0.7rem;
+  cursor: text;
+  max-width: 100%;
+}
+
+footer {
+  background-color: #ff5700;
+  padding: 2rem 1rem;
+  margin-top: 2rem;
+}
+
+.footer-container {
+  max-width: 100%;
+  text-align: center;
+  padding: 3rem 1rem;
+  font-size: 10pt;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 14pt;
 }
 
 @media (min-width: 768px) {
