@@ -11,7 +11,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #ff8b56;
+  background-color: #ff5700;
   margin: auto;
   text-align: center;
   font-size: 0.7rem;
@@ -33,11 +33,12 @@ h1 {
   background-color: white;
   max-width: 900px;
   border-radius: 5px;
-  color: #ff8b56;
+  color: #ff5700;
   padding: 0 1rem;
 }
 
 h2:nth-child(4) {
+  font-size: 17pt;
   margin-top: 15px;
 }
 
@@ -64,9 +65,13 @@ h2 {
 
 p {
   color: white;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1rem;
   max-width: 668px;
+}
+
+.italic {
+  font-style: italic;
 }
 
 a {
@@ -76,6 +81,7 @@ a {
   border-radius: 1rem;
   margin-top: 2rem;
   transition: 0.3s;
+  font-style: italic;
 }
 
 a:hover {
@@ -83,14 +89,14 @@ a:hover {
 }
 
 .top-button {
-  font-weight: 500;
-  font-size: 1.4rem;
+  font-weight: 600;
+  font-size: 1.3rem;
   line-height: 1.5rem;
 }
 
 .bottom-button {
   font-size: 0.9rem;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .button {
@@ -151,6 +157,10 @@ main > p {
   padding-bottom: 1rem;
 }
 
+.number1 {
+  margin-left: 0.7rem;
+}
+
 .acesso {
   font-weight: 500;
   margin-top: 2rem;
@@ -171,6 +181,7 @@ main > p {
 }
 
 .main-2 > span {
+  font-size: 18pt;
   max-width: 768px;
 }
 
@@ -366,6 +377,10 @@ main > p {
   padding: 0 1rem 5rem 1rem;
 }
 
+.maryana-title {
+  text-align: center;
+}
+
 .maryana p {
   text-align: center;
 }
@@ -419,7 +434,7 @@ main > p {
 }
 
 .preco {
-  clip-path: polygon(0 15%, 100% 1%, 100% 100%, 0% 100%);
+  clip-path: polygon(0 7%, 100% 0, 100% 100%, 0% 100%);
   background-color: #ff5700;
   display: flex;
   flex-direction: column;
@@ -433,6 +448,7 @@ main > p {
   flex-direction: column;
   align-items: flex-start;
   max-width: 768px;
+  padding: 0 1rem;
 }
 
 .preco h1 {
@@ -489,8 +505,9 @@ main > p {
 
 .subtitle-bump {
   color: black;
-  font-weight: 400;
+  font-weight: 600;
   text-align: center;
+  font-size: 14pt;
 }
 
 .oferta {
@@ -529,6 +546,10 @@ main > p {
   width: 320px;
 }
 
+.img-celular img {
+  width: 100%;
+}
+
 .bump-image img {
   width: 100%;
 }
@@ -550,7 +571,8 @@ main > p {
 }
 
 .garantia img {
-  width: 80%;
+  margin-top: 1rem;
+  width: 60%;
   max-width: 300px;
 }
 
@@ -575,6 +597,7 @@ main > p {
 .title-integracao-footer {
   text-align: center;
   font-weight: 500;
+  font-size: 17pt;
 }
 
 .footer-integracao {
@@ -677,7 +700,8 @@ summary {
   padding: 0.7rem;
 }
 
-summary::marker {
+summary::marker,
+summary::-webkit-details-marker {
   color: #ff5700;
 }
 
@@ -691,8 +715,8 @@ summary::marker {
 
 footer {
   background-color: #ff5700;
-  padding: 2rem 1rem;
   margin-top: 2rem;
+  padding-bottom: 1rem;
 }
 
 .footer-container {
@@ -704,7 +728,7 @@ footer {
 
 .copyright {
   text-align: center;
-  font-size: 14pt;
+  font-size: 12pt;
 }
 
 @media (min-width: 768px) {
